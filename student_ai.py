@@ -3,7 +3,7 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 from openai import OpenAI
 import requests
-import uvicorn
+import uvicorn import os
 
 # OpenRouter Client
 client = OpenAI(
