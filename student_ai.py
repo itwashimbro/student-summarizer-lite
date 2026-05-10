@@ -7,7 +7,7 @@ import uvicorn
 
 # OpenRouter Client
 client = OpenAI(
-    api_key="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",
+    api_key = os.getenv("OPENAI_API_KEY"),
     base_url="https://openrouter.ai/api/v1"
 )
 
